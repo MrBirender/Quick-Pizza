@@ -57,7 +57,7 @@ const Order = () => {
 
             {/* Price & Add Button */}
             <div className="flex justify-between items-center">
-              <p className="text-lg font-bold text-gray-800">€299</p>
+              <p className="text-lg font-bold text-gray-800">€12</p>
               <button className="bg-orange-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-orange-600 transition">
                 Add +
               </button>
