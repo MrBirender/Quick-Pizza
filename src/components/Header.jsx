@@ -10,7 +10,7 @@ const Header = () => {
         {/* Logo & Search Bar */}
         <div className="flex items-center md:gap-6 ">
           {/* Logo */}
-          <img src={Logo} alt="logo" className="hover:scale- w-20 md:w-24 lg:w-32 h-auto" />
+          <img src={Logo} alt="logo" className="hover:scale-105 w-20 md:w-24 lg:w-44 h-auto" />
 
           {/* Search Input */}
           <input
