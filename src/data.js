@@ -98,20 +98,20 @@ const assets = {
   milestones: [
     {
       icon: stores,
-      title: "300+ Stores",
-      desc: "In Mumbai, Delhi NCR, Bangalore, Hyderabad, Pune, Chennai & Kolkata",
+      title: "Stores",
+      desc: "Montpellier Garesaintroach",
     },
-    { icon: customers, title: "15L+ Customers", desc: "Love MOJO Pizza" },
+    { icon: customers, title: "15L+ Customers", desc: "Love Quick Pizza" },
     {
       icon: min24,
-      title: "24 Mins Delivery",
+      title: "30 Mins Delivery",
       desc: "Average Super Fast Delivery Time",
     },
     ,
     {
       icon: rating,
       title: "4.7 stars",
-      desc: "India's Highest Rated Pizza Delivery Chain",
+      desc: "Montpellier's Highest Rated Pizza",
     },
   ],
   mobiles: {
