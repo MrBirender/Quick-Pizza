@@ -24,38 +24,33 @@ const Header = () => {
         </div>
 
         {/* Navigation Menu */}
-        <nav>
-          <ul className="hidden md:flex items-center gap-3">
-            <li className="flex justify-center gap-1 items-center cursor-pointer hover:text-gray-700">
-              <img
-                src={assets.icons.instagram}
-                alt="deal"
-                className="w-6 h-6"
-              />
-              <p className="text-lg capitalize` font-medium animate-[blink_1.5s_infinite]">
-                Join challenges & earn rewards
-              </p>{" "}
-              |
-            </li>
 
-            <li className="flex justify-center gap-1 items-center cursor-pointer hover:text-gray-700">
-              <img src={assets.icons.hotDeal} alt="deal" className="w-6 h-6" />
-              <p className="text-lg font-medium">Deals</p> |
-            </li>
-            <li className="flex justify-center gap-1 items-center cursor-pointer hover:text-gray-700">
-              <img
-                src={assets.icons.shoppingCart}
-                alt="cart"
-                className="w-6 h-6"
-              />
-              <p className="text-lg font-medium">Cart</p> |
-            </li>
-            <li className="flex justify-center gap-1 items-center cursor-pointer hover:text-gray-700">
-              <img src={assets.icons.user} alt="user" className="w-6 h-6" />
-              <p className="text-lg font-medium">Sign in</p>
-            </li>
-          </ul>
-        </nav>
+        <ul className="hidden md:flex items-center gap-3">
+          <li className="flex justify-center gap-1 items-center cursor-pointer hover:text-gray-700">
+            <img src={assets.icons.instagram} alt="deal" className="w-6 h-6" />
+            <p className="text-lg capitalize` font-medium animate-[blink_1.5s_infinite]">
+              Join challenges & earn rewards
+            </p>{" "}
+            |
+          </li>
+
+          <li className="flex justify-center gap-1 items-center cursor-pointer hover:text-gray-700">
+            <img src={assets.icons.hotDeal} alt="deal" className="w-6 h-6" />
+            <p className="text-lg font-medium">Deals</p> |
+          </li>
+          <li className="flex justify-center gap-1 items-center cursor-pointer hover:text-gray-700">
+            <img
+              src={assets.icons.shoppingCart}
+              alt="cart"
+              className="w-6 h-6"
+            />
+            <p className="text-lg font-medium">Cart</p> |
+          </li>
+          <li className="flex justify-center gap-1 items-center cursor-pointer hover:text-gray-700">
+            <img src={assets.icons.user} alt="user" className="w-6 h-6" />
+            <p className="text-lg font-medium">Sign in</p>
+          </li>
+        </ul>
       </div>
     </header>
   );
