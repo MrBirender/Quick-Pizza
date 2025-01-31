@@ -19,10 +19,10 @@ import order17 from "./assets/order17.jpg";
 import order18 from "./assets/order18.jpg";
 
 // Importing hero images (JPEG)
-import Hero1 from "./assets/Hero1.jpeg";
+import Hero1 from "./assets/Hero1.jpg";
 import Hero2 from "./assets/Hero2.jpeg";
 import Hero3 from "./assets/Hero3.jpeg";
-import Hero4 from "./assets/Hero4.jpeg";
+import Hero4 from "./assets/Hero4.jpg";
 
 // Importing other assets (PNG)
 import min24 from "./assets/24_min.png";
